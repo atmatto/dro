@@ -1,6 +1,6 @@
 dro
 
-Minimal image manipulation program using raylib-go.
+Minimal image manipulation program written using raylib-go.
 
 Usage: dro [FILE]
 
