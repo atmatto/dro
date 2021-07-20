@@ -1,0 +1,26 @@
+dro
+
+Minimal image manipulation program using raylib-go.
+
+Usage: dro [FILE]
+
+Program may be buggy. Clipboard support is not yet implemented.
+Currently can only save PNG files and load only some formats.
+Input prompts support only ASCII characters.
+
+ctrl-n - new file
+ctrl-o - open file
+ctrl-s - save file
+ctrl-(shift)-q - quit (forcefully)
+ctrl-z, ctrl-y - undo, redo
+c - color selector
+s - rectangular selection
+[, ] - change brush thickness, hold shift to change faster
+
+To do:
+- clipboard
+- hold (...) to draw straight lines
+- ellipse outline thickness
+- support more file formats
+- support UTF-8 input in prompts
+- tidy up the code
